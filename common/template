@@ -1,0 +1,22 @@
+class MAIN User{
+	Q_PROPERTY(int id)
+	Q_PROPERTY(QString username READ username WRITE setUsername NOTIFY usernameChanged)
+	Q_PROPERTY(QPixmap avator READ avator WRITE setAvator NOTIFY avatorChanged)
+	
+	void sendMessage(QString message);
+	void messageRecived(QString username, QString message);
+	void sendImage(QPixmap image);
+}
+
+class Game{
+	Q_PROPERTY(int player1Goals)
+	Q_PROPERTY(int player2Goals)
+	
+	void shoot(int nut, qreal angle, qreal power);
+	void point(int nut, qreal angle, qreal power);
+}
+
+class Server{
+	QVariantMap getLeagueList();
+	int findUser(int leagueId);
+} 

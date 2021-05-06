@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>ScreenBoundaries.qml</file>
+        <file>Nut.qml</file>
+        <file>Wall.qml</file>
+        <file>BoxBody.qml</file>
+        <file>ChainBody.qml</file>
+        <file>CircleBody.qml</file>
+        <file>EdgeBody.qml</file>
+        <file>ImageBoxBody.qml</file>
+        <file>PhysicsItem.qml</file>
+        <file>PolygonBody.qml</file>
+        <file>RectangleBoxBody.qml</file>
+        <file>images/wall.jpg</file>
+        <file>PointArrow.qml</file>
+        <file>Ball.qml</file>
+        <file>Utils.js</file>
+        <file>ball.png</file>
+        <file>ScaleArea.qml</file>
+        <file>football_pitch.jpg</file>
+        <file>arrow.png</file>
+        <file>glow.png</file>
+    </qresource>
+</RCC>
